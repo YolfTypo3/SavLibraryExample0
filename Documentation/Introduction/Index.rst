@@ -37,7 +37,7 @@ The SAV Library Kickstarter includes:
 
 - Many other features.
 
-This example is a test extension which illustrates several features of the 
+This example is a test extension that demonstrates several features of the 
 SAV Library Plus extension. 
 
 .. important::
