@@ -15,8 +15,7 @@ order to be used with the `SAV Library Plus
 <https://typo3.org/extensions/repository/view/sav_library_plus>`_
 extension.
 
-The SAV Library Extension Kickstarter makes it possible to directly
-build extensions  **without any PHP coding**, thanks to simple
+The SAV Library Extension Kickstarter builds extensions  **without any PHP coding**, thanks to simple
 configuration parameters.
 
 The SAV Library Kickstarter includes:
