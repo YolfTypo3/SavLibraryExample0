@@ -12,8 +12,10 @@ if ($typo3Version->getMajorVersion() == 13) {
 	// Adds the plugin
 	ExtensionManagementUtility::addPlugin(
 	    [
-	        'LLL:EXT:sav_library_example0/Resources/Private/Language/locallang_db.xlf:tt_content.list_type_pi1',
-	        'sav_library_example0_pi1',
+	        'label' => 'LLL:EXT:sav_library_example0/Resources/Private/Language/locallang_db.xlf:tt_content.list_type_pi1',
+	        'value' => 'sav_library_example0_pi1',
+	        'icon'	=> 'ext-savlibraryexample0-wizard',
+	        'group'	=> 'plugins'
 	    ],
 	    'CType',
 	    'sav_library_example0'
@@ -39,8 +41,8 @@ if ($typo3Version->getMajorVersion() == 13) {
 	    [
 	        'label' => 'LLL:EXT:sav_library_example0/Resources/Private/Language/locallang_db.xlf:tt_content.list_type_pi1',
 	        'value' => 'sav_library_example0_pi1',
-	        'icon'	=> '',
-	        'group'	=> null
+	        'icon'	=> 'ext-savlibraryexample0-wizard',
+	        'group'	=> 'plugins'
 	    ],
 	    'FILE:EXT:sav_library_example0/Configuration/Flexforms/ExtensionFlexform.xml',
 	);
